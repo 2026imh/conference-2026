@@ -6,13 +6,13 @@ window.CONFERENCE_SITE_DATA = {
     host: "重構跨越臺海的現代史",
     date: "2026年8月4日（星期二）至8月6日（星期四）",
     location: "中央研究院近代史研究所，臺北",
-    footerText: "二十世紀中國歷史協會與中央研究院近代史研究所聯合主辦。",
+    footerText: "二十世紀中國歷史協會與中央研究院近代史研究所聯合主辦",
     registrationUrl: "https://forms.gle/iHhe8SePij9A99RY8",
     submissionUrl: "#/zh/info",
     heroImage: "assets/images/hero-2026.png"
   },
   languages: {
-    zh: "中文",
+    zh: "中　文",
     en: "ENGLISH"
   },
   nav: [
@@ -72,7 +72,7 @@ window.CONFERENCE_SITE_DATA = {
       info: {
         nav: "重要資訊",
         title: "重要資訊",
-        summary: "投稿、論文繳交、住宿與常見問答。",
+        summary: "投稿、論文繳交、住宿與常見問答",
         imageCarousel: [
           { src: "assets/images/info-program.png", alt: "論文提交與議程安排說明圖" },
           { src: "assets/images/info-accommodation.png", alt: "住宿安排說明圖" },
@@ -83,7 +83,7 @@ window.CONFERENCE_SITE_DATA = {
             id: "submission-program",
             label: "01",
             title: "論文提交與議程安排",
-            summary: "投稿、摘要格式、論文繳交與議程公告。",
+            summary: "投稿、摘要格式、論文繳交與議程公告",
             body: [
               "投稿截止日期為2025年10月31日（星期五）。投稿者請提交中、英文雙語摘要，雙語摘要將刊登於會議網站並收錄於會議手冊；會議發表可使用中文或英文。",
               "專題小組與圓桌論壇提案將優先審查。單篇論文提案請提供論文標題、摘要、作者姓名、所屬單位與聯絡資訊；大會將協助彙整並安排適合場次。",
@@ -101,7 +101,7 @@ window.CONFERENCE_SITE_DATA = {
             id: "accommodation-visa",
             label: "02",
             title: "住宿與簽證",
-            summary: "住宿申請、延長住宿與入臺證申請資訊。",
+            summary: "住宿申請、延長住宿與入臺證申請資訊",
             body: [
               "有關本次會議之議程、住宿安排及入臺證申請等事項，主辦單位已於3月13日及4月2日以電子郵件通知所有與會學者，並將另行發出第3次電子郵件通知。如尚未收到通知，敬請各場次成員協助互相轉知。",
               "各項申請截止日期為4月19日。考量住宿房間數量有限及整體安排需求，4月20日（含）之後將無法保證提供住宿，尚未完成申請者須自行安排住宿。",
@@ -139,7 +139,7 @@ window.CONFERENCE_SITE_DATA = {
             id: "membership-fees",
             label: "03",
             title: "會員費用",
-            summary: "HSTCC 會員資格、註冊費與繳費注意事項。",
+            summary: "HSTCC 會員資格、註冊費與繳費注意事項",
             body: [
               "會議發表人須為 HSTCC 有效會員並已繳交會費。年度會費為美金67元，研究生可免繳；會費包含會議註冊費及《二十世紀中國》電子版期刊之閱覽權限。",
               "若您已是 HSTCC 會員，請確認會員資格在2026年8月4日（星期二）至8月6日（星期四）會議期間仍然有效；若屆時資格已過期，請務必完成續會。",
@@ -155,7 +155,7 @@ window.CONFERENCE_SITE_DATA = {
             id: "faq",
             label: "04",
             title: "常見問答",
-            summary: "與提交、住宿、簽證及聯絡相關的快速說明。",
+            summary: "與提交、住宿、簽證及聯絡相關的快速說明",
             body: [
               "以下整理與會者最常詢問的事項；若仍有個別情況需要確認，請依問題類型聯繫相關窗口。"
             ],
@@ -233,7 +233,7 @@ window.CONFERENCE_SITE_DATA = {
       program: {
         nav: "議程及與會學者",
         title: "議程及與會學者",
-        summary: "大會議程、場次資訊及與會學者名單。",
+        summary: "大會議程、場次資訊及與會學者名單",
         body: [],
         actions: [
           { label: "大會議程總表", url: "https://docs.google.com/document/d/1s02wwYuVWAL9t0IkdgT-Kc64XIdPO3jf/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "primary" },
@@ -249,9 +249,10 @@ window.CONFERENCE_SITE_DATA = {
         eventBlocks: [
           {
             label: "01",
-            title: "跨越臺海的史料現場：檔案館・圖書館・胡適紀念館三館聯展",
-            text: "敬請期待",
-            meta: "時間：2026年8月3日（星期一）至12月30日（星期三）。週一至週五 09：00~17:00，國定例假日休館。｜地點：近史所檔案館1樓左側廊道",
+            title: "史料現場 X 近史所三館聯合特展：近代東亞的權力重構與人群移動",
+            btnTitle: "史料現場 X 近史所三館聯合特展",
+            text: "這不僅是一場參觀活動，更是一場深入近代史研究核心的實地探索。我們將帶領與會學者與貴賓，從宏觀的聯展視野出發，深入檔案館核心庫房，並近距離認識支撐當代研究的重要檔案、圖書與數位資源。誠摯邀請各位與會先進，與我們一同走入史料的呼吸之中。",
+            meta: "時間：2026年8月3日（一）至12月30日（三）。週一至週五 09：00~17:00，國定例假日休館。｜地點：近史所檔案館1樓左側廊道",
             groups: [
               {
                 title: "參展館室",
@@ -263,14 +264,19 @@ window.CONFERENCE_SITE_DATA = {
               },
               {
                 title: "聯展亮點",
-                people: ["敬請期待"]
+                people: [
+                  "【揭開塵封的「密件」】從國共諜戰到冷戰外交：首度公開法務部調查局（薈蘆特藏）珍稀史料，從中共入黨誓詞到宣傳漫畫，直擊內戰時期的情報攻防。同時展示冷戰下臺灣如何運用美援，從農林經濟轉身進入半導體時代的關鍵瞬間。",
+                  "【閱讀生命的「刻度」】名醫處方與將領日記：從中醫宗師馬光亞、西醫名家韓石泉的診療紀錄，看見近代醫療的交錯；透過黎玉璽、孫立人及王叔銘等將領的日記文書，還原遷臺初期波譎雲詭的軍政重塑與反攻夢想。",
+                  "【跨時空的「父子對話」】胡適檔案中的臺灣記憶：不僅是胡適，更看見其父胡傳在晚清臺灣留下的足跡。從清領末期的營務巡閱到胡適晚年定居南港的「蝸居」生活，展現這對傳奇父子與臺灣跨越半世紀的深厚情緣。",
+                  "【國家統治的「耳目」】從內部情報到社會監控：郭廷以圖書館精選全臺獨家「新華社內部參考」機密報告，揭開官方宣傳背後最真實的基層動態。從清代巴縣訴訟檔案到民國時期的海外僑訊，看見國家力量如何透過資訊網絡，深入社會的每一個角落，形塑你我熟知的歷史記憶。"
+                ]
               },
               {
                 title: "聯展聯絡窗口",
                 people: ["近史所檔案館館員林小姐：quen@as.edu.tw"]
               }
             ],
-            sections: [
+            /* sections: [
               {
                 title: "聯展海報",
                 layout: "poster",
@@ -284,7 +290,7 @@ window.CONFERENCE_SITE_DATA = {
                   }
                 ]
               }
-            ]
+            ] */
           },
           {
             type: "simple",
@@ -293,15 +299,15 @@ window.CONFERENCE_SITE_DATA = {
             text: "",
             meta: "",
             actions: [
-              { label: "三館聯展限定導覽", url: "#", style: "primary" },
-              { label: "胡適紀念館專場導覽", url: "#", style: "secondary" }
+              { label: "三館聯展限定導覽", page: "joint_tour", style: "primary" },
+              { label: "胡適紀念館專場導覽", page: "hushih_tour", style: "secondary" }
             ]
           },
           {
             label: "03",
             title: "國際學術出版社書展",
             text: "本研討會匯聚來自臺灣、東亞與歐美各地的尖端學者，從多元視角探討臺海兩岸現代史的全球連結，推動跨區域與跨國史的新對話。為深化學術社群與出版界的互動，特別設置「國際學術出版書展」專區，展示近代東亞史研究的豐碩出版成果，促進出版社、作者與讀者的聯繫與交流。",
-            meta: "時間：2026年8月4日（星期二）至8月6日（星期四）｜地點：近史所檔案館2樓迴廊區",
+            meta: "時間：2026年8月4日（二）至8月6日（四）｜地點：近史所檔案館2樓迴廊區",
             groups: [
               {
                 title: "參展出版社",
@@ -367,7 +373,7 @@ window.CONFERENCE_SITE_DATA = {
       }, venue: {
         nav: "會議地點",
         title: "會議地點",
-        summary: "四個會場分設於中央研究院近代史研究所檔案館與人文社會科學研究中心。",
+        summary: "四個會場分設於中央研究院近代史研究所檔案館與人文社會科學研究中心",
         sections: [
           {
             title: "近史所檔案館",
@@ -421,8 +427,15 @@ window.CONFERENCE_SITE_DATA = {
       travel: {
         nav: "交通資訊",
         title: "交通資訊",
-        summary: "前往中央研究院南港院區的主要交通方式。",
-        sectionAnchors: true,
+        summary: "前往中央研究院南港院區的主要交通方式",
+        accordion: true,
+        instituteInfo: {
+          name: "中央研究院近代史研究所",
+          address: "115201 台北市南港區研究院路二段128號",
+          addressLabel: "地址",
+          phone: "+886-2-2782-4166",
+          phoneLabel: "電話"
+        },
         sections: [
           {
             title: "1. 從機場到中研院",
@@ -481,9 +494,9 @@ window.CONFERENCE_SITE_DATA = {
             title: "3. 公車到中研院",
             layout: "guide",
             items: [
-              "從捷運南港展覽館站轉乘時，可搭乘：小5、小12、205、276、306、620、645、679號公車",
+              "從捷運南港展覽館站轉乘時，可搭乘：小5、小12、205、276、306、620、645、679號公車。",
               "從南港車站轉乘時，可搭270、藍25。",
-              "確認下車站為「中研院」"
+              "確認下車站為「中研院」。"
             ]
           },
           {
@@ -493,7 +506,7 @@ window.CONFERENCE_SITE_DATA = {
               {
                 title: "到中研院學術活動中心",
                 items: [
-                  "搭乘公車到「中研院站」",
+                  "搭乘公車到「中研院站」。",
                   "由中央研究院舊大門進入院區。",
                   "沿著「數理大道」直行。",
                   "走到底後左轉，往體育館方向前進。",
@@ -506,10 +519,10 @@ window.CONFERENCE_SITE_DATA = {
               {
                 title: "到洛碁大飯店 松山館",
                 items: [
-                  "搭乘捷運板南線(藍線)到後山埤站",
-                  "從3號出口出站",
-                  "出站後沿玉成街往前方步行1分鐘",
-                  "抵達目的地「洛碁大飯店 松山館」(左側)"
+                  "搭乘捷運板南線(藍線)到後山埤站。",
+                  "從3號出口出站。",
+                  "出站後沿玉成街往前方步行1分鐘。",
+                  "抵達目的地「洛碁大飯店 松山館」(左側)。"
                 ],
                 actions: [
                   { label: "洛碁大飯店 松山館GOOGLE MAP", url: "https://maps.app.goo.gl/wdf959uM6LBbga6GA", style: "primary" }
@@ -578,11 +591,148 @@ window.CONFERENCE_SITE_DATA = {
       contact: {
         nav: "聯繫方式",
         title: "聯繫方式",
-        summary: "會議聯絡窗口。",
+        summary: "會議聯絡窗口",
         body: [
           "會議統籌：林秀娟小姐（schuan@as.edu.tw）",
           "住宿及入臺證申請：許惠文小姐（wen357@as.edu.tw）",
           "議程安排及個人資料異動：黃怡真小姐（huangyichen@as.edu.tw）"
+        ]
+      },
+      joint_tour: {
+        nav: "三館聯展限定導覽",
+        title: "【研討會限定】史料現場：三館聯展與近代史數位典藏巡禮",
+        summary: "一場穿越時空的學術對話，僅於 8 月 3 日午後限定開啟",
+        body: [
+          "本次學術研討會期間，我們特別策劃「史料現場」限定導覽行程。這不僅是一場參觀活動，更是一場深入近代史研究核心的實地探索。",
+          "我們將帶領與會學者與貴賓，從宏觀的聯展視野出發，深入檔案館核心庫房，並近距離認識支撐當代研究的重要檔案、圖書與數位資源。誠摯邀請各位與會先進，與我們一同走入史料的呼吸之中。"
+        ],
+        sections: [
+          {
+            title: "行程亮點",
+            items: [
+              "【三館聯展特導】聚焦權力重構與人群移動：特別針對本次三館聯合策展內容進行精華導覽，帶領與會者解讀史料背後隱含的權力流轉與歷史脈絡。",
+              "【直擊史料核心】走進檔案館典藏空間：特別開放檔案館三樓庫房與閱覽空間，讓與會嘉賓近距離感受檔案保存工作的專業、溫度與嚴謹。",
+              "【研究利器解析】檔案與圖書數位資源簡介：由檔案館主任蘇聖雄與圖書館學科館員張瑜庭解說近代史研究不可或缺的檔案應用、圖書文獻與數位資料庫資源，協助研究者掌握多元研究工具。",
+              "【專業交流對話】深度座談 Q&A：行程最後安排綜合交流時段，由研究人員及與會者進行面對面交流與結語分享，交流史料典藏與學術應用的實務經驗。"
+            ]
+          },
+          {
+            title: "活動資訊",
+            layout: "guide",
+            items: [
+              "活動日期：2026 年 8 月 3 日（星期一）",
+              "活動時間：13:30–17:00（導覽行程約 1 小時 40 分鐘，將依報名人數分場次進行）",
+              "導覽地點：近代史研究所檔案館",
+              "集合地點：近代史研究所檔案館第二會議室",
+              "活動對象：本次研討會與會學者及嘉賓"
+            ]
+          },
+          {
+            title: "報名資訊",
+            text: "為維持高品質導覽體驗，若報名人數超過限額，入選名單將由主辦單位審核決定，敬請提早預約。",
+            actions: [
+              {
+                label: "線上報名",
+                url: "https://forms.gle/XFPxVn7Stahsw1SSA",
+                style: "primary"
+              }
+            ],
+            items: [
+              "請登入 Google 帳號報名；無帳號者，請致信聯絡人辦理。",
+              "報名期限：即日起至 2026年7月27日（星期一）17:00 止。（額滿將提前關閉表單）"
+            ]
+          },
+          {
+            title: "聯絡資訊 & 相關單位",
+            text: "主辦單位：近代史研究所檔案館、郭廷以圖書館、胡適紀念館",
+            items: [
+              "聯絡人：近史所檔案館館員 林小姐",
+              "電子信箱：quen@as.edu.tw"
+            ]
+          },
+          {
+            title: "三館聯展會場",
+            images: [
+              {
+                src: "assets/images/tour-joint-1.jpg",
+                alt: "近代史研究所檔案館照片",
+                caption: "近代史研究所檔案館",
+                enlarge: true
+              },
+              {
+                src: "assets/images/tour-joint-2.jpg",
+                alt: "近代史研究所三館聯展說明照片",
+                caption: "三館聯合特展：近代東亞的權力重構與人群移動",
+                enlarge: true
+              }
+            ]
+          }
+        ]
+      },
+      hushih_tour: {
+        nav: "胡適紀念館專場導覽",
+        title: "胡適紀念館專場導覽",
+        summary: "探索新文化運動推手胡適故居，了解其學術獨立與自由主義理念",
+        body: [
+          "胡適（1891-1962）是新文化運動的重要推手，他所領導的文學革命改變了現在漢語使用者的溝通方式。對日抗戰期間，胡適出任駐美大使，促成中美合作抗日。他雖然與執政黨關係密切，卻始終信仰自由與理性，堅持獨立與人權。1958 年，胡適返臺就任中央研究院院長，致力於學術的發展與獨立，在風雨飄搖的局勢中為國家拔擢人才，成為臺灣人文與科技發展的重要基礎。",
+          "胡適過世後，院方將故居改建為紀念館，並增建陳列室，用以介紹胡適的生平與貢獻，同時保存、陳列胡適的藏書、生活場域及其他遺物。",
+          "胡適紀念館在會議舉行當週期間，特別為與會者提供導覽服務，請有意願參與的朋友報名。"
+        ],
+        sections: [
+          {
+            title: "導覽資訊",
+            layout: "guide",
+            items: [
+              "導覽範圍：胡適紀念館（陳列室與故居）",
+              "導覽時間：8 月 4 日（星期二）至 8 月 8 日（星期六），共計 10 場",
+              "導覽時段：每日 10:00-11:00、14:30-15:30"
+            ]
+          },
+          {
+            title: "報名資訊",
+            text: "為維護導覽體驗，本活動採「線上預約制」。請點擊下方按鈕填寫報名表單。",
+            actions: [
+              {
+                label: "線上報名",
+                url: "https://forms.gle/Evfgeft8C966C9Np8",
+                style: "primary"
+              }
+            ],
+            items: [
+              "請登入 Google 帳號報名；無帳號者，請致信聯絡人辦理。"
+            ]
+          },
+          {
+            title: "聯絡資訊 & 相關單位",
+            text: "主辦單位：胡適紀念館",
+            items: [
+              "聯絡人：胡適紀念館 岑丞丕",
+              "電子信箱：chengpi@as.edu.tw"
+            ]
+          },
+          {
+            title: "故居及陳列室實景",
+            images: [
+              {
+                src: "assets/images/tour-hushih-1.jpg",
+                alt: "胡適故居餐廳讀書相片彩色修復",
+                caption: "胡適院長在南港中研院故居餐廳讀書（照片經數位上色）",
+                enlarge: true
+              },
+              {
+                src: "assets/images/tour-hushih-2.jpg",
+                alt: "中研院胡適故居近照",
+                caption: "中研院胡適故居近照",
+                enlarge: true
+              },
+              {
+                src: "assets/images/tour-hushih-3.jpg",
+                alt: "1958年的胡適寓所彩色修復",
+                caption: "1958年的胡適寓所（即胡適故居，照片經數位上色）",
+                enlarge: true
+              }
+            ]
+          }
         ]
       }
     },
@@ -808,7 +958,7 @@ window.CONFERENCE_SITE_DATA = {
           {
             label: "01",
             title: "Across the Taiwan Strait: Historical Materials in the Archives, Library, and Hu Shih Memorial Hall",
-            text: "Coming soon",
+            text: "This is not only a sightseeing activity, but a physical exploration into the core of modern history research. We will lead participating scholars and guests to start from the macroscopic vision of the joint exhibition, go deep into the core repository of the archives, and get close to the important archives, books, and digital resources that support contemporary research. We cordially invite you to walk into the breathing of historical materials with us.",
             meta: "Date: August 4 (Tuesday) - 6 (Thursday), 2026 | Venue: Left-side corridor, 1F, IMH Archives Building",
             groups: [
               {
@@ -821,14 +971,19 @@ window.CONFERENCE_SITE_DATA = {
               },
               {
                 title: "Exhibition Highlights",
-                people: ["Coming soon"]
+                people: [
+                  "【Unveiling Sealed \"Classified Documents\"】From Nationalists-Communists Espionage to Cold War Diplomacy: Showcasing for the first time rare historical archives from the Investigation Bureau of the Ministry of Justice (Huilu Special Collection). Ranging from Chinese Communist Party induction oaths to propaganda cartoons, these materials offer a direct view of intelligence operations during the civil war. Concurrently, it displays the critical moments of Taiwan’s economic transition under the Cold War, utilizing U.S. aid to pivot from an agricultural-forestry economy to the semiconductor era.",
+                  "【Reading the \"Scales\" of Life】Prescriptions of Renowned Doctors and Diaries of Military Generals: Observing the intersection of modern medical systems through the clinical records of Chinese medicine master Ma Kuang-ya and Western medicine pioneer Han Shih-chuan. Concurrently, diaries and documents of generals such as Li Yu-hsi, Sun Li-jen, and Wang Shu-ming reconstruct the turbulent military-political restructuring and the dreams of reclaiming the mainland during the early post-relocation period to Taiwan.",
+                  "【Cross-Temporal \"Dialogue Between Father and Son\"】Taiwanese Memory in the Hu Shih Archives: Exploring not only Hu Shih's papers, but also the footprints left by his father, Hu Chuan, in late Qing Taiwan. From the inspection of military affairs at the end of the Qing rule to Hu Shih's modest residence in Nangang during his twilight years, this exhibit demonstrates the profound connection spanning over half a century between this legendary father and son and the island of Taiwan.",
+                  "【The \"Eyes and Ears\" of State Governance】From Internal Intelligence to Social Surveillance: The Kuo Ting-yee Library features Taiwan's exclusive selection of classified \"Xinhua News Agency Internal Reference\" reports, revealing the authentic grassroots realities behind official propaganda. Ranging from Baxian litigation archives of the Qing dynasty to overseas Chinese newsletters of the Republican era, the exhibit illustrates how state power penetrated every corner of society through information networks, shaping the historical memories we know today."
+                ]
               },
               {
                 title: "Exhibition Contact",
                 people: ["Ms. Lin, IMH Archives: quen@as.edu.tw"]
               }
             ],
-            sections: [
+            /* sections: [
               {
                 title: "Exhibition Poster",
                 layout: "poster",
@@ -842,7 +997,7 @@ window.CONFERENCE_SITE_DATA = {
                   }
                 ]
               }
-            ]
+            ] */
           },
           {
             type: "simple",
@@ -851,8 +1006,8 @@ window.CONFERENCE_SITE_DATA = {
             text: "",
             meta: "",
             actions: [
-              { label: "Special Collections Tour", url: "#", style: "primary" },
-              { label: "Hu Shih Memorial Hall Tour", url: "#", style: "secondary" }
+              { label: "Special Collections Tour", page: "joint_tour", style: "primary" },
+              { label: "Hu Shih Memorial Hall Tour", page: "hushih_tour", style: "secondary" }
             ]
           },
           {
@@ -977,10 +1132,17 @@ window.CONFERENCE_SITE_DATA = {
         ]
       },
       travel: {
-        nav: "Travel",
-        title: "Travel Information",
-        summary: "Main transportation options to Academia Sinica's Nangang campus.",
-        sectionAnchors: true,
+        nav: "Directions",
+        title: "Getting Here...",
+        summary: "Main transportation options to Academia Sinica's Nangang Campus.",
+        accordion: true,
+        instituteInfo: {
+          name: "Institute of Modern History, Academia Sinica",
+          address: "128 Academia Road, Section 2, Nangang, Taipei 115201, Taiwan",
+          addressLabel: "Address",
+          phone: "+886-2-2782-4166",
+          phoneLabel: "Phone"
+        },
         sections: [
           {
             title: "1. From the Airport to Academia Sinica",
@@ -1142,6 +1304,143 @@ window.CONFERENCE_SITE_DATA = {
           "Ms. Lin | Conference coordination | schuan@as.edu.tw",
           "Ms. Hsu | Accommodation and entry permit applications | wen357@as.edu.tw",
           "Ms. Huang | Program arrangements and personal information updates | huangyichen@as.edu.tw"
+        ]
+      },
+      joint_tour: {
+        nav: "Special Collections Tour",
+        title: "[Conference Only] Special Collections Tour: Three-Museum Joint Exhibition & Modern History Digital Archives",
+        summary: "A cross-time scholarly dialogue, exclusively open on the afternoon of August 3.",
+        body: [
+          "During the academic conference, we have specially planned the 'Historical Material Scenes' limited guided tour. This is not only a sightseeing activity, but a physical exploration into the core of modern history research.",
+          "We will lead participating scholars and guests to start from the macroscopic vision of the joint exhibition, go deep into the core repository of the archives, and get close to the important archives, books, and digital resources that support contemporary research. We cordially invite you to walk into the breathing of historical materials with us."
+        ],
+        sections: [
+          {
+            title: "Tour Highlights",
+            items: [
+              "【Joint Exhibition Special Tour】Focusing on Power Reconstruction and Human Mobility: Special highlight tour for this joint exhibition, leading participants to decode the power shifts and historical context hidden behind the historical materials.",
+              "【Into the Core of Historical Materials】Walking into the Archive Repository: Specially opening the third-floor repository and reading room of the Archives, allowing guests to experience the professionalism, warmth, and rigor of archive preservation work first-hand.",
+              "【Research Tool Analysis】Introduction to Archives and Library Digital Resources: Director Sheng-Hsiung Su and Subject Librarian of the Library Yu-ting Chang will explain archive applications, library literature, and digital databases indispensable for modern history research, helping researchers master diverse tools.",
+              "【Professional Exchange】In-depth Q&A Discussion: A general exchange session is arranged at the end of the tour, where researchers and participants can have face-to-face exchanges on the practical experience of historical material preservation and academic application."
+            ]
+          },
+          {
+            title: "Event Information",
+            layout: "guide",
+            items: [
+              "Date: August 3, 2026 (Monday)",
+              "Time: 13:30–17:00 (The tour takes about 1 hour and 40 minutes, and will be conducted in sessions based on the number of registrants)",
+              "Venue: Archives of the Institute of Modern History",
+              "Meeting Point: Conference Room 2, Archives of the Institute of Modern History",
+              "Target Audience: Scholars and guests of this conference"
+            ]
+          },
+          {
+            title: "Registration",
+            text: "To maintain a high-quality guided tour experience, if the number of registrants exceeds the capacity limit, the final admission list will be reviewed and determined by the organizer. Early reservation is highly recommended.",
+            actions: [
+              {
+                label: "Online Registration (Google Form)",
+                url: "https://forms.gle/XFPxVn7Stahsw1SSA",
+                style: "primary"
+              }
+            ],
+            items: [
+              "Please sign in with a Google account to register; if you do not have one, please email the contact person.",
+              "Registration Period: From now until 17:00 on Monday, July 27, 2026 (The registration form will close early once the capacity is reached)."
+            ]
+          },
+          {
+            title: "Contact & Organizers",
+            text: "Organizers: Archives of the Institute of Modern History, Kuo Ting-yee Library, Hu Shih Memorial Hall",
+            items: [
+              "Contact: Ms. Lin, Archivist of the IMH Archives",
+              "Email: quen@as.edu.tw"
+            ]
+          },
+          {
+            title: "Tour Preview",
+            images: [
+              {
+                src: "assets/images/tour-joint-1.jpg",
+                alt: "IMH Archives photo",
+                caption: "Archive of Institute of Modern History ",
+                enlarge: true
+              },
+              {
+                src: "assets/images/tour-joint-2.jpg",
+                alt: "Exhibition and Book Fair",
+                caption: "IMH Three-Museum Joint Exhibition: Power Reconstruction and Human Mobility in Modern East Asia",
+                enlarge: true
+              }
+            ]
+          }
+        ]
+      },
+      hushih_tour: {
+        nav: "Hu Shih Memorial Hall Tour",
+        title: "Hu Shih Memorial Hall Tour",
+        summary: "Explore the former residence of Hu Shih, the advocate of the New Culture Movement, and learn about his ideals of academic independence and liberalism.",
+        body: [
+          "Hu Shih (1891-1962) is a major advocate of the New Culture Movement, and the literary revolution he led changed the communication mode of modern Mandarin. During the Second Sino-Japanese War, Hu Shih served as the Ambassador to the United States, facilitating Sino-US cooperation against the Japanese invasion. Although closely connected with the ruling party, he always believed in liberty and reason, insisting on independence and human rights. In 1958, Hu Shih returned to Taiwan to serve as the President of Academia Sinica, dedicating himself to the development and independence of academia, recruiting talents for the country in a turbulent situation, and establishing an important foundation for Taiwan's humanities and scientific development.",
+          "After Hu Shih passed away, the Academia Sinica converted his residence into a memorial hall and added an exhibition room to introduce his life and contributions, while preserving and displaying his books and living space.",
+          "During the “Reframing Modern Histories Across the Taiwan Strait” international conference, Hu Shih Memorial Hall provides special guided tour. Please register in advance."
+        ],
+        sections: [
+          {
+            title: "Tour Details",
+            layout: "guide",
+            items: [
+              "Scope: Hu Shih Memorial Hall (Exhibition Room and Former Residence)",
+              "Dates: August 4 (Tuesday) - August 8 (Saturday), 2026, 10 sessions in total",
+              "Time slots: 10:00-11:00; 14:30-15:30 daily"
+            ]
+          },
+          {
+            title: "Registration",
+            text: "To maintain the tour experience, this event adopts an 'online reservation' system. Please click the button below to fill in the registration form.",
+            actions: [
+              {
+                label: "Online Registration (Google Form)",
+                url: "https://forms.gle/Evfgeft8C966C9Np8",
+                style: "primary"
+              }
+            ],
+            items: [
+              "Please sign in with a Google account to register; if you do not have one, please email the contact person."
+            ]
+          },
+          {
+            title: "Contact & Organizers",
+            text: "Organizer: Hu Shih Memorial Hall",
+            items: [
+              "Contact: Mr. Cheng-pi Ceng, Hu Shih Memorial Hall",
+              "Email: chengpi@as.edu.tw"
+            ]
+          },
+          {
+            title: "Exhibition & Residence View",
+            images: [
+              {
+                src: "assets/images/tour-hushih-1.jpg",
+                alt: "Hu Shih reading in the dining room of his residence, photo colorized",
+                caption: "President Hu Shih reading in the dining room of his former residence at Academia Sinica, Nangang (digitally colorized)",
+                enlarge: true
+              },
+              {
+                src: "assets/images/tour-hushih-2.jpg",
+                alt: "Recent photograph of the Hu Shih Former Residence, Academia Sinica",
+                caption: "Recent photograph of the Hu Shih Former Residence, Academia Sinica",
+                enlarge: true
+              },
+              {
+                src: "assets/images/tour-hushih-3.jpg",
+                alt: "The Hu Shih Residence in 1958, photo colorized",
+                caption: "The Hu Shih Residence in 1958 (namely the Hu Shih Former Residence, digitally colorized)",
+                enlarge: true
+              }
+            ]
+          }
         ]
       }
     }
