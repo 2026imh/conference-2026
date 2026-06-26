@@ -236,9 +236,9 @@ window.CONFERENCE_SITE_DATA = {
         summary: "大會議程、場次資訊及與會學者名單",
         body: [],
         actions: [
-          { label: "大會議程總表", url: "https://drive.google.com/file/d/1Kryku_RAJ04Vj6tUc1VQ7Y8zJaagvGN8", style: "primary" },
-          { label: "分組議程", url: "https://drive.google.com/file/d/166QLpRWcCqm2RJLOvitAz6fSzOKHCahe", style: "secondary" },
-          { label: "與會學者名單", url: "https://docs.google.com/document/d/13pqopF57lgSZvDrEzUXQ5KOCEMkSfJQ8", style: "secondary" },
+          { label: "大會議程總表", url: "https://docs.google.com/document/d/1s02wwYuVWAL9t0IkdgT-Kc64XIdPO3jf/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "primary" },
+          { label: "分組議程", url: "https://docs.google.com/document/d/1Dnt1RySIk-bmoW_pV1s_SlvthJoEmf24/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "secondary" },
+          { label: "與會學者名單", url: "https://docs.google.com/document/d/13pqopF57lgSZvDrEzUXQ5KOCEMkSfJQ8/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "secondary" },
           { label: "會議手冊", url: "#", style: "secondary" }
         ]
       },
@@ -944,9 +944,9 @@ window.CONFERENCE_SITE_DATA = {
         summary: "Conference program, session information, and participant list.",
         body: [],
         actions: [
-          { label: "Conference Program", url: "https://drive.google.com/file/d/1Kryku_RAJ04Vj6tUc1VQ7Y8zJaagvGN8", style: "primary" },
-          { label: "Parallel Sessions", url: "https://drive.google.com/file/d/166QLpRWcCqm2RJLOvitAz6fSzOKHCahe", style: "secondary" },
-          { label: "Participant List", url: "https://docs.google.com/document/d/13pqopF57lgSZvDrEzUXQ5KOCEMkSfJQ8", style: "secondary" },
+          { label: "Conference Program", url: "https://docs.google.com/document/d/1s02wwYuVWAL9t0IkdgT-Kc64XIdPO3jf/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "primary" },
+          { label: "Parallel Sessions", url: "https://docs.google.com/document/d/1Dnt1RySIk-bmoW_pV1s_SlvthJoEmf24/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "secondary" },
+          { label: "Participant List", url: "https://docs.google.com/document/d/13pqopF57lgSZvDrEzUXQ5KOCEMkSfJQ8/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "secondary" },
           { label: "Conference Handbook", url: "#", style: "secondary" }
         ]
       },
