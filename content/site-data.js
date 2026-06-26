@@ -87,7 +87,7 @@ window.CONFERENCE_SITE_DATA = {
             body: [
               "投稿截止日期為2025年10月31日（星期五）。投稿者請提交中、英文雙語摘要，雙語摘要將刊登於會議網站並收錄於會議手冊；會議發表可使用中文或英文。",
               "專題小組與圓桌論壇提案將優先審查。單篇論文提案請提供論文標題、摘要、作者姓名、所屬單位與聯絡資訊；大會將協助彙整並安排適合場次。",
-              "會議之論文資料，專題小組與圓桌論壇請由召集人自行聯繫並提供主持人及評論人；單篇論文請於2026年6月30日前提交大會，大會將協助彙整並轉送主持人。",
+              "會議之論文資料，專題小組與圓桌論壇請由召集人自行聯繫並提供主持人及評論人；單篇論文請於2026年7月5日前提交大會，大會將協助彙整並轉送主持人。",
               "各場次發表時間及相關議事規則，將另行公告。"
             ],
             items: [
@@ -795,7 +795,7 @@ window.CONFERENCE_SITE_DATA = {
             body: [
               "The submission deadline is Friday, October 31, 2025. Applicants should submit bilingual abstracts in Chinese and English; these abstracts will appear on the conference website and in the conference program. Presentations may be delivered in Chinese or English.",
               "Panel and roundtable proposals will be prioritized. Individual paper proposals should include a title, abstract, author name, affiliation, and contact information; the organizers will arrange accepted individual papers into suitable sessions.",
-              "For conference papers, conveners of thematic panels and roundtable forums are kindly requested to distribute the papers directly to the session chairs and discussants. Individual papers should be submitted to the conference organizers by June 30, 2026, so that they may be compiled and circulated to the session chairs.",
+              "For conference papers, conveners of thematic panels and roundtable forums are kindly requested to distribute the papers directly to the session chairs and discussants. Individual papers should be submitted to the conference organizers by july 5, 2026, so that they may be compiled and circulated to the session chairs.",
               "Presentation time allocations and detailed session guidelines will be announced later."
             ],
             items: [
