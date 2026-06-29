@@ -33,7 +33,9 @@
       .replaceAll("<", "&lt;")
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#039;");
+      .replaceAll("'", "&#039;")
+      .replaceAll("&lt;strong&gt;", "<strong>")
+      .replaceAll("&lt;/strong&gt;", "</strong>");
   }
 
   function renderActions(actions = []) {
