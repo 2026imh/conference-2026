@@ -30,3 +30,4 @@ content/site-data.js
 - 聯展海報英文版：`assets/images/exhibition-poster-en.jpg`
 - 書展海報中文版：`assets/images/bookfair-poster-zh.jpg`
 - 書展海報英文版：`assets/images/bookfair-poster-en.jpg`
+-
