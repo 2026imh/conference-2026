@@ -239,7 +239,7 @@ window.CONFERENCE_SITE_DATA = {
         actions: [
           { label: "大會議程總表", url: "https://drive.google.com/file/d/1T2LoIlPcw0L5HP9VRD4C4_SDEYTwdPUP/view?usp=drive_link", style: "primary" },
           { label: "分組議程", url: "https://drive.google.com/file/d/1G-luBm294mRkTFTCl_pbDkeV1fLEPKYt/view?usp=drive_link", style: "secondary" },
-          { label: "與會學者名單", url: "https://docs.google.com/document/d/13pqopF57lgSZvDrEzUXQ5KOCEMkSfJQ8/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "secondary" },
+          { label: "與會學者名單", url: "https://drive.google.com/file/d/1M243PHeCkMtrX-4W4q5R5gPEWrP8hIhh/view", style: "secondary" },
           { label: "會議手冊", url: "#", style: "secondary" }
         ]
       },
@@ -950,7 +950,7 @@ window.CONFERENCE_SITE_DATA = {
         actions: [
           { label: "Conference Program", url: "https://drive.google.com/file/d/1T2LoIlPcw0L5HP9VRD4C4_SDEYTwdPUP/view?usp=drive_link", style: "primary" },
           { label: "Parallel Sessions", url: "https://drive.google.com/file/d/1G-luBm294mRkTFTCl_pbDkeV1fLEPKYt/view?usp=drive_link", style: "secondary" },
-          { label: "Participant List", url: "https://docs.google.com/document/d/13pqopF57lgSZvDrEzUXQ5KOCEMkSfJQ8/edit?usp=sharing&ouid=116934345849904324298&rtpof=true&sd=true", style: "secondary" },
+          { label: "Participant List", url: "https://drive.google.com/file/d/1_xPyydUm8TSku9_pc5tQ659dftvEzoh-/view", style: "secondary" },
           { label: "Conference Handbook", url: "#", style: "secondary" }
         ]
       },
