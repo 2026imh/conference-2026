@@ -274,7 +274,12 @@ window.CONFERENCE_SITE_DATA = {
               },
               {
                 title: "聯展聯絡窗口",
-                people: ["近史所檔案館館員林小姐：quen@as.edu.tw"]
+                people: ["近史所檔案館館員林小姐：quen@as.edu.tw"],
+                image: {
+                  src: "assets/images/Three-site-exhibition-poster.jpg",
+                  alt: "史料現場 X 近史所三館聯合特展海報",
+                  caption: "三館聯展海報，點擊可開啟大圖查看細節"
+                }
               }
             ],
             /* sections: [
@@ -351,22 +356,12 @@ window.CONFERENCE_SITE_DATA = {
                 people: [
                   "郭廷以圖書館林主任：lin2957@as.edu.tw",
                   "學科館員張小姐：amyasi1219@as.edu.tw"
-                ]
-              }
-            ],
-            sections: [
-              {
-                title: "書展海報",
-                layout: "poster",
-                text: "書展海報彙整日期、時間、地點與參展出版社資訊。點擊海報可開啟大圖，方便放大查看細節。",
-                images: [
-                  {
-                    src: "assets/images/bookfair-poster-zh.jpg",
-                    alt: "國際學術出版社書展中文版海報",
-                    caption: "中文版書展海報，點擊可開啟大圖查看細節",
-                    enlarge: true
-                  }
-                ]
+                ],
+                image: {
+                  src: "assets/images/bookfair-poster-zh.jpg",
+                  alt: "國際學術出版社書展中文版海報",
+                  caption: "中文版書展海報，點擊可開啟大圖查看細節"
+                }
               }
             ]
           }
@@ -984,7 +979,12 @@ window.CONFERENCE_SITE_DATA = {
               },
               {
                 title: "Exhibition Contact",
-                people: ["Ms. Lin, IMH Archives: quen@as.edu.tw"]
+                people: ["Ms. Lin, IMH Archives: quen@as.edu.tw"],
+                image: {
+                  src: "assets/images/Three-site-exhibition-poster.jpg",
+                  alt: "Three-Site Exhibition Poster",
+                  caption: "Three-site exhibition poster — click to enlarge"
+                }
               }
             ],
             /* sections: [
@@ -1061,22 +1061,12 @@ window.CONFERENCE_SITE_DATA = {
                 people: [
                   "Ms. Lin, Director, Kuo Ting-yee Library: lin2957@as.edu.tw",
                   "Ms. Chang, Subject Librarian, Kuo Ting-yee Library: amyasi1219@as.edu.tw"
-                ]
-              }
-            ],
-            sections: [
-              {
-                title: "Book Fair Poster",
-                layout: "poster",
-                text: "The poster gathers the exhibition date, time, venue, and participating publishers. Click the poster to open a larger version for details.",
-                images: [
-                  {
-                    src: "assets/images/bookfair-poster-en.jpg",
-                    alt: "International Academic Publishers Exhibition English poster",
-                    caption: "English book fair poster. Click to open a larger version.",
-                    enlarge: true
-                  }
-                ]
+                ],
+                image: {
+                  src: "assets/images/bookfair-poster-en.jpg",
+                  alt: "International Academic Publishers Exhibition English poster",
+                  caption: "English book fair poster — click to enlarge"
+                }
               }
             ]
           }

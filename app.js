@@ -72,6 +72,16 @@
                 )
                 .join("")}</div>`
             : `<ul>${group.people.map((person) => `<li>${renderLinkedItem(person)}</li>`).join("")}</ul>`}
+          ${
+            group.image
+              ? `<figure class="group-image">
+                  <button type="button" class="lightbox-trigger" data-lightbox-src="${escapeHTML(group.image.src)}" data-lightbox-alt="${escapeHTML(group.image.alt || group.title)}" data-lightbox-caption="${escapeHTML(group.image.caption || "")}">
+                    <img src="${escapeHTML(group.image.src)}" alt="${escapeHTML(group.image.alt || group.title)}" loading="lazy" />
+                  </button>
+                  ${group.image.caption ? `<figcaption>${escapeHTML(group.image.caption)}</figcaption>` : ""}
+                </figure>`
+              : ""
+          }
         </section>`
       )
       .join("")}</div>`;
@@ -83,9 +93,13 @@
     return `<div class="section-images">${sectionImages
       .map(
         (image) => `<figure class="section-image">
-          <a href="${escapeHTML(image.src)}" ${image.enlarge ? `target="_blank" rel="noopener noreferrer"` : ""}>
-            <img src="${escapeHTML(image.src)}" alt="${escapeHTML(image.alt || section.title)}" loading="lazy" />
-          </a>
+          ${
+            image.enlarge
+              ? `<button type="button" class="lightbox-trigger" data-lightbox-src="${escapeHTML(image.src)}" data-lightbox-alt="${escapeHTML(image.alt || section.title)}" data-lightbox-caption="${escapeHTML(image.caption || "")}">
+                  <img src="${escapeHTML(image.src)}" alt="${escapeHTML(image.alt || section.title)}" loading="lazy" />
+                </button>`
+              : `<img src="${escapeHTML(image.src)}" alt="${escapeHTML(image.alt || section.title)}" loading="lazy" />`
+          }
           ${image.caption ? `<figcaption>${escapeHTML(image.caption)}</figcaption>` : ""}
         </figure>`
       )
@@ -604,8 +618,74 @@
     }
   });
 
+  function setupLightbox() {
+    let lightbox = document.querySelector("#lightbox-modal");
+    if (!lightbox) {
+      lightbox = document.createElement("div");
+      lightbox.id = "lightbox-modal";
+      lightbox.className = "lightbox-modal";
+      lightbox.hidden = true;
+      lightbox.setAttribute("aria-hidden", "true");
+      lightbox.innerHTML = `
+        <div class="lightbox-overlay"></div>
+        <div class="lightbox-container">
+          <button type="button" class="lightbox-close" aria-label="關閉">&times;</button>
+          <img class="lightbox-image" src="" alt="" />
+          <p class="lightbox-caption"></p>
+        </div>
+      `;
+      document.body.appendChild(lightbox);
+    }
+
+    const imgEl = lightbox.querySelector(".lightbox-image");
+    const captionEl = lightbox.querySelector(".lightbox-caption");
+    const closeBtn = lightbox.querySelector(".lightbox-close");
+    const overlay = lightbox.querySelector(".lightbox-overlay");
+
+    function openLightbox(src, alt, caption) {
+      imgEl.src = src;
+      imgEl.alt = alt || "";
+      captionEl.textContent = caption || "";
+      captionEl.style.display = caption ? "block" : "none";
+      lightbox.hidden = false;
+      lightbox.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox() {
+      lightbox.hidden = true;
+      lightbox.setAttribute("aria-hidden", "true");
+      imgEl.src = "";
+      document.body.style.overflow = "";
+    }
+
+    document.addEventListener("click", (event) => {
+      if (!(event.target instanceof Element)) return;
+      const trigger = event.target.closest(".lightbox-trigger");
+      if (trigger) {
+        event.preventDefault();
+        const src = trigger.dataset.lightboxSrc;
+        const alt = trigger.dataset.lightboxAlt;
+        const caption = trigger.dataset.lightboxCaption;
+        if (src) {
+          openLightbox(src, alt, caption);
+        }
+      }
+    });
+
+    closeBtn.addEventListener("click", closeLightbox);
+    overlay.addEventListener("click", closeLightbox);
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !lightbox.hidden) {
+        closeLightbox();
+      }
+    });
+  }
+
   window.addEventListener("hashchange", renderPage);
   if (!location.hash) location.hash = "#/zh/home";
   setupEditor();
+  setupLightbox();
   renderPage();
 })();
