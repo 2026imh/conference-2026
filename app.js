@@ -269,19 +269,7 @@
                   ? `<ol class="route-steps">${section.items.map((item) => `<li>${escapeHTML(item)}</li>`).join("")}</ol>`
                   : `<ul>${section.items.map((item) => `<li>${escapeHTML(item)}</li>`).join("")}</ul>`
                 : "";
-              const sectionImages = section.images || (section.image ? [section.image] : []);
-              const sectionImage = sectionImages.length
-                ? `<div class="section-images">${sectionImages
-                    .map(
-                      (image) => `<figure class="section-image">
-                        <a href="${escapeHTML(image.src)}" ${image.enlarge ? `target="_blank" rel="noopener noreferrer"` : ""}>
-                          <img src="${escapeHTML(image.src)}" alt="${escapeHTML(image.alt || section.title)}" loading="lazy" />
-                        </a>
-                        ${image.caption ? `<figcaption>${escapeHTML(image.caption)}</figcaption>` : ""}
-                      </figure>`
-                    )
-                    .join("")}</div>`
-                : "";
+              const sectionImage = renderSectionImageSet(section);
               
               if (isAccordion) {
                 return `<details id="section-${index + 1}" class="accordion-item ${[isGuide ? "guide-section" : "", section.layout === "poster" ? "poster-section" : ""].filter(Boolean).join(" ")}">
@@ -325,20 +313,7 @@
                     .map((section) => `<section class="${section.layout === "poster" ? "poster-section" : ""}">
                       <h2>${escapeHTML(section.title)}</h2>
                       ${section.text ? `<p>${escapeHTML(section.text)}</p>` : ""}
-                      ${
-                        section.images && section.images.length
-                          ? `<div class="section-images">${section.images
-                              .map(
-                                (image) => `<figure class="section-image">
-                                  <a href="${escapeHTML(image.src)}" ${image.enlarge ? `target="_blank" rel="noopener noreferrer"` : ""}>
-                                    <img src="${escapeHTML(image.src)}" alt="${escapeHTML(image.alt || section.title)}" loading="lazy" />
-                                  </a>
-                                  ${image.caption ? `<figcaption>${escapeHTML(image.caption)}</figcaption>` : ""}
-                                </figure>`
-                              )
-                              .join("")}</div>`
-                          : ""
-                      }
+                      ${renderSectionImageSet(section)}
                     </section>`)
                     .join("")}</div>`
                 : ""}
